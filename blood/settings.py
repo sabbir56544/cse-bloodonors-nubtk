@@ -24,9 +24,9 @@ STATIC_DIR = BASE_DIR / 'static'
 SECRET_KEY = 'django-insecure-0b=s%h%7$hot17)=$iu@s$nmcs-66=p@lzk-3!lyhupp+!pj0y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'nubtk-cse-bloodonors.herokuapp.com']
+ALLOWED_HOSTS = ['*', 'nubtk-cse-bloodonors.herokuapp.com']
 
 
 # Application definition
